@@ -28,10 +28,11 @@ header {
 }
 
 .logo {
-    width: 35%;
+    width: 40%;
     padding: 1% 0;
     position: relative;
     top: 100px;
+    right: 193px;
 }
 
 .coxinha-principal {

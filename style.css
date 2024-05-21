@@ -18,6 +18,8 @@ h1 {
 
 .nome {
     font-size: 300%;
+    color: var(#98daa3);
+}
 }
 
 header {
@@ -52,6 +54,7 @@ section {
 .hello-kitty {
     display: flex;
     align-items: center;
+    margin: -5% 0;
 }
 
 .doces {

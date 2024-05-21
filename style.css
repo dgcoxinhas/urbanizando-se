@@ -221,3 +221,15 @@ header a {
 .nomes-redes{
     padding: 0 4%
 }
+
+.img-casa{
+    width: 51%;
+    height: 5%;
+    padding: 300px 0%;
+}
+
+.titulo-principal{
+    margin: 7px 9%;
+    padding: 14% 0;
+    font-size: 397%;
+}

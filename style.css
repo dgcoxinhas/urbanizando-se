@@ -32,7 +32,7 @@ header {
     padding: 1% 0;
     position: relative;
     top: 100px;
-    right: 193px;
+    right: 46px;
 }
 
 .coxinha-principal {
@@ -72,7 +72,7 @@ section {
     font-style: normal;
 }
 
-#equipe {
+#icon-pesquisa {
 
     display: grid;
     grid-template-columns: 50% 50%;

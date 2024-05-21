@@ -17,9 +17,11 @@ h1 {
 }
 
 .nome {
-    font-size: 300%;
+    font-size: 479%;
     color: #9dc9a4;
+    padding: 0 7%;
 }
+
 
 header {
     display: flex;
@@ -29,11 +31,11 @@ header {
 }
 
 .logo {
-    width: 40%;
-    padding: 1% 0;
+    width: 32%;
+    padding: 5% 0;
     position: relative;
-    top: 100px;
-    right: 46px;
+    top: 69px;
+    right: 37px;
 }
 
 .coxinha-principal {

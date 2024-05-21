@@ -38,12 +38,7 @@ header {
     right: 37px;
 }
 
-.coxinha-principal {
-    width: 30%;
-    border-radius: 130px;
-    border: 80px solid #ffffff;
-    margin-inline-start: auto;
-}
+
 
 section {
     display: flex;
@@ -85,34 +80,6 @@ section {
     margin: 7% 20%;
 }
 
-#doces {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: #ff91b2;
-}
-
-#salgados {
-    display: grid;
-    grid-template-columns: 30% 30% 40%;
-    background-color: #ffd5b2;
-}
-
-
-.foto-equipe {
-    width: 50%;
-    border-radius: 10px;
-}
-
-.foto-doce {
-    width: 35%;
-    border-radius: 10px;
-}
-
-.foto-pizza {
-    width: 69%;
-    border-radius: 10px;
-} 
-
 .div-equipe {
 
     text-align: center;
@@ -121,7 +88,7 @@ section {
 }
 
 .rodape {
-    background-color: #ff91b2;
+    background-color: #0a3311;
     display: grid;
     grid-template-columns: 55% 45%;
     font-size: 25px;
@@ -129,47 +96,13 @@ section {
 
 }
 
-.linha {
-    border: solid 1px var(--cor-do-texto);
-}
 
 header a {
     color: #000000;
     text-decoration: none;
 }
 
-.nome-das-coxinhas {
-    display: flex;
-    justify-content: right;
-    font-size: 23px;
-    padding: 0 2%;
-}
 
-.combo1 {
-    width: 355px;
-    border-radius: 10px;
-}
-
-.combo2 {
-    width: 400px;
-    border-radius: 10px;
-}
-
-.local-nomes {
-    display: flex;
-    padding: 20px;
-    font-size: 23px;
-    align-items: center;
-}
-
-
-.descricao {
-    font-size: 193%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
-}
 
 
 
@@ -193,34 +126,6 @@ header a {
     align-items: center;
 }
 
-.foto-item {
-    width: 226px;
-    border-radius: 10px;
-}
-
-.icon{
-    width: 15%;
-    border-radius: 10px;
-}
-
-.icon2{
-    width: 15%;
-    border-radius: 10px;
-    margin: 0 -2%;
-}
-.nome-icon{
-
-    font-size: 100%;
-}
-
-.nome-icon2{
-    font-size: 100%;
-    padding: 0 3%;
-}
-
-.nomes-redes{
-    padding: 0 4%
-}
 
 .img-casa{
     width: 51%;

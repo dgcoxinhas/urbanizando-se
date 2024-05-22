@@ -38,8 +38,6 @@ header {
     right: 37px;
 }
 
-
-
 section {
     display: flex;
     color: rgb(#000000);
@@ -62,7 +60,6 @@ section {
     text-align: center;
     border-radius: 17%;
 }
-
 
 .titulo {
     font-family: "Oswald", sans-serif;
@@ -131,4 +128,8 @@ header a {
     margin: 7px 9%;
     padding: 14% 0;
     font-size: 397%;
+}
+
+.topico{
+    font-size: 150%;
 }

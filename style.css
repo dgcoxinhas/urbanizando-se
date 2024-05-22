@@ -93,18 +93,12 @@ section {
     grid-template-columns: 55% 45%;
     font-size: 25px;
     align-items: center;
-
 }
-
 
 header a {
     color: #000000;
     text-decoration: none;
 }
-
-
-
-
 
 .item {
     display: grid;

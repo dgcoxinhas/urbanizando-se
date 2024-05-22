@@ -131,5 +131,14 @@ header a {
 }
 
 .topico{
-    font-size: 150%;
+
+    font-size: 252%;
+    padding: 0 4%;
+    color: #030e04;
+}
+
+.desenvol{
+    font-size: 178%;
+    padding: 0 6%;
+}
 }

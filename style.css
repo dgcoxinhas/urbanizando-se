@@ -74,8 +74,7 @@ section {
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
-    user-select: none;
-    cursor: pointer;
+    
 }
 
 .div-equipe {
@@ -145,4 +144,9 @@ header a {
 
 .letrinha-pequena{
     font-size: 65%;
+}
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
 }

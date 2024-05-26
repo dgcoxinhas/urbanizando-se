@@ -150,3 +150,8 @@ header a {
     user-select: none;
     cursor: pointer;
 }
+
+.icon-pesquisa:hover{
+    background-color: #214427;
+
+}

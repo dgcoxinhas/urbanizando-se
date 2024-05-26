@@ -151,7 +151,7 @@ header a {
     cursor: pointer;
 }
 
-search-txt {
+.search-txt {
     border: none;
     background: none;
     outline: none;

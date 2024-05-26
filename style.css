@@ -176,3 +176,7 @@ header a {
     border-radius: 40px;
  
 }
+
+.search-box:hover > .search-txt {
+   width: 240px;
+}

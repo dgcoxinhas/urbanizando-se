@@ -159,6 +159,8 @@ header a {
     font-size: 16px;
     line-height: 40px;
     width: 0;
+    transition: .5s;
+    background-color: #4c8355;
 }
     
 .search-btn {

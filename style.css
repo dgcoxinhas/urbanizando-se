@@ -75,6 +75,7 @@ section {
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
+    user-select: none;
 }
 
 .div-equipe {

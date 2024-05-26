@@ -151,7 +151,18 @@ header a {
     cursor: pointer;
 }
 
-.icon-pesquisa:hover{
-    background-color: #214427;
-
+search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+}
+    
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }

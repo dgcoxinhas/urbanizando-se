@@ -120,7 +120,6 @@ header a {
 
 .img-casa{
     width: 51%;
-    height: 5%;
     padding: 300px 0%;
 }
 
@@ -151,7 +150,7 @@ header a {
     cursor: pointer;
 }
 
-.search-txt {
+.texto-pesqu {
     border: none;
     background: none;
     outline: none;
@@ -164,19 +163,19 @@ header a {
     border-radius: 92px;
 }
     
-.search-btn {
+.icon-pesqu {
     width: 40px;
     height: 40px;
 
 }
 
-.search-box {
+.caixa-pesquisa {
     top: 50%;
     left: 50%;
     height: 68px;
 
 }
 
-.search-box:hover > .search-txt {
+.caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
 }

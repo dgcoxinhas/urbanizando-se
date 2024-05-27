@@ -182,13 +182,14 @@ header a {
 
 nav{
     height: 100%;
-    width: 250px;
+    width: 0px;
     background-color: #214427;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 1;
     overflow: hidden;
+    transition: widht 0.3s;
 }
 
 nav a{
@@ -202,4 +203,9 @@ nav a{
 nav a:hover{
     color: #214427;
     background-color: #9dc9a4;
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
 }

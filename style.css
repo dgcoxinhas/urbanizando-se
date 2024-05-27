@@ -181,8 +181,55 @@ header a {
 }
 
 .hamburger {
+    display: none;
     border: none;
     background: none;
     border-top: 3px solid #fff;
     cursor: pointer;
     }
+
+.hamburger::before
+.hamburger::after {
+
+content: "";
+display: block;
+width: 30px;
+height: 3px;
+background: #fff;
+margin-top: 5px;
+position: relative;
+transition: 0.3s;
+}
+
+@media (max-width: 750px) {
+
+    .hamburger{
+    
+    display: block;
+    }
+
+    .nav-list {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgb(4, 48, 4);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        clip-path: circle(100px at 90%-15%);
+        pointer-events: none;
+        transition: 1s ease-out;
+        }
+
+        .nav.active .nav-list {
+
+            clip-path: circle(1500px at 90%-15%);
+            pointer-events: all;
+            
+            }
+
+        }

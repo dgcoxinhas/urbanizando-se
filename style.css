@@ -198,7 +198,7 @@ nav a{
     padding: 12px 10px 12px 32px ;
 }
 
-nav:hover{
+nav a:hover{
     color: #104919;
     background-color: #9dc9a4;
 }

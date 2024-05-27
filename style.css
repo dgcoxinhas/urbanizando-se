@@ -179,3 +179,10 @@ header a {
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
 }
+
+.hamburger {
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+    }

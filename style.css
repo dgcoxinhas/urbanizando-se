@@ -189,3 +189,9 @@ nav{
     right: 0;
     z-index: 1;
 }
+
+nav a{
+
+    color: #ffffff;
+    font-size: 25px;
+}

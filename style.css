@@ -179,3 +179,12 @@ header a {
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
 }
+
+.nav{
+    height: 100%;
+    width: 250px;
+    background-color: #104919;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

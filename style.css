@@ -183,7 +183,7 @@ header a {
 nav{
     height: 100%;
     width: 250px;
-    background-color: #104919;
+    background-color: #214427;
     position: fixed;
     top: 0;
     right: 0;
@@ -199,6 +199,6 @@ nav a{
 }
 
 nav a:hover{
-    color: #104919;
+    color: #214427;
     background-color: #9dc9a4;
 }

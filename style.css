@@ -45,6 +45,10 @@ section {
     background-color: #ffffff;
 }
 
+footer {
+    background-color: #0a3311;
+}
+
 .hello-kitty {
     display: flex;
     align-items: center;

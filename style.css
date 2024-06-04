@@ -209,3 +209,7 @@ main{
     padding: 10px;
     transition: margin-left 0.5s;
 }
+
+.caixa-menu:hover > .abas{
+    width: 240px; 
+}

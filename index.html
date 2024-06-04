@@ -32,13 +32,15 @@
 
  <header>
 
-<a href="#" class="bnt-abrir" onclick="abrirMenu"> <img src="icon-menu.png" alt="menu"> </a>
+<a href="#" class="bnt-abrir" > <img src="icon-menu.png" alt="menu"> </a>
 
 </header>
 
-<nav id="menu">
+<div class="caixa-menu">
 
-<a href="#" onclick="fecharMenu"> <img src="icon-menu.png" alt="menu"></a>
+<nav id="menu" class="abas">
+
+<a href="#" > <img src="icon-menu.png" alt="menu"> </a>
     
 <a href="#">Home</a>
 
@@ -49,6 +51,7 @@
 <a href="#">YouTube</a>
 
 </nav>
+</div>
 
 <main>
     
@@ -197,18 +200,6 @@ campo que querem se urbanalizar, seja por vontade, ou por precisão.</p>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 
-<script>
-
-    function abrirMenu() {
-        document.getElementById("menu").style.width = "250px";
-    }
-    function fecharMenu() {
-        document.getElementById("menu").style.width = "0px"
-    }
- 
-
-
-</script>
 
 
 </body>

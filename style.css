@@ -63,14 +63,14 @@ footer {
 #footer_contacts h1 {
 
     margin-bottom: 0.75rem;
-    }
+}
     
 #footer_social_media {
-    
+
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
-    }
+}
     
 #footer_social_media.footer-link {
 
@@ -82,12 +82,12 @@ footer {
     color: #ffffff;
     border-radius: 50%;
 
-    }
+}
     
     
 #instagram {
     background: linear-gradient(#7f37c9, #ff2992 #ff9807)
-    }
+}
     
 #facebook {
     

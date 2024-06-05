@@ -76,7 +76,10 @@ footer .boxs {
  .boxs ul li a{
     color:#e5f7e7;
     text-decoration: none;
-    
+ }
+
+ .boxs ul li a{
+    color: #ffffff;
  }
 
  footer .boxs:nth-child(4) {

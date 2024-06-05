@@ -48,7 +48,6 @@ section {
 }
 
 footer {
-    color: #9dc9a4;
     width: 100%;
     min-height: 250px;
     background: #214427;
@@ -64,6 +63,25 @@ footer .boxs {
     align-items: flex-start;
     flex-direction: column;
 }
+ .boxs h2{
+    color: #b6e9be;
+    margin-bottom: 20px;
+ }
+
+ .boxs ul li{
+    margin:10px 0px;
+    list-style: none;
+ }
+
+ .boxs ul li a{
+    color:#b6e9be;
+    text-decoration: none;
+    
+ }
+
+ footer .boxs:nth-child(4) {
+ width: 400px;
+ }
 
 
 .hello-kitty {

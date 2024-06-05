@@ -56,10 +56,15 @@ footer {
 }
 
 footer .boxs {
-width: 320px;
-min-height: 150px;
-padding: 20px;
+    display: inline-flex;
+    font-size: 25px;
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    align-items: flex-start;
+    flex-direction: column;
 }
+
 
 .hello-kitty {
     display: flex;

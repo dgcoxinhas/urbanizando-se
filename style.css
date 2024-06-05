@@ -218,3 +218,7 @@ main{
     transition: margin-left 0.5s;
 }
 
+.apresentação{
+    font-size: 178%;
+    padding: 0 6%;
+}

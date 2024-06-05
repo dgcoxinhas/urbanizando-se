@@ -48,7 +48,10 @@ section {
 }
 
 footer {
-    background-color: #0a3311;
+    width: 100%;
+    min-height: 250px;
+    background: #214427;
+    display: flex;
 }
 
 .hello-kitty {

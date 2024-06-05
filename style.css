@@ -54,6 +54,12 @@ footer {
     display: flex;
 }
 
+footer.boxs {
+width: 320px;
+min-height: 150px;
+padding: 20px;
+}
+
 .hello-kitty {
     display: flex;
     align-items: center;

@@ -55,7 +55,7 @@ footer {
     display: flex;
 }
 
-footer.boxs {
+footer .boxs {
 width: 320px;
 min-height: 150px;
 padding: 20px;

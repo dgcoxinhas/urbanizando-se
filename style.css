@@ -51,21 +51,23 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
+    display: flex;
+    background: #214427;
 }
 
 footer .boxs {
-    display: inline-flex;
-    font-size: 25px;
+  
     width: 320px;
     min-height: 150px;
     padding: 20px;
-    align-items: flex-start;
-    flex-direction: column;
-    background: #214427;
 }
  .boxs h2{
     color: #b6e9be;
     margin-bottom: 20px;
+ }
+
+footer .boxs:nth-child(4) {
+ width: 400px;
  }
 
  .boxs ul li{
@@ -82,9 +84,7 @@ footer .boxs {
     color:#9dc9a4;
  }
 
- footer .boxs:nth-child(4) {
- width: 400px;
- }
+ 
 
 .footer{
     width: 100%;

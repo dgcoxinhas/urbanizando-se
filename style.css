@@ -201,8 +201,15 @@ header a {
     margin: 25px 4%;
     padding: 14% 0;
     font-size: 397%;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 600;
+}
+
+.cont-titulo{
+    font-family: "DM sans", sans-serif;
+    margin: 25px 4%;
+    padding: 14% 0;
+    font-size: 397%;
 }
 
 .topico{

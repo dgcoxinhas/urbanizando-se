@@ -94,6 +94,30 @@ footer .boxs:nth-child(4) {
     padding: 0px 20px;
     background-color: #093611;
 }
+ 
+.footer .sociais{
+    display: flex;
+}
+
+.sociais .social{
+    width: 40px;
+    height: 40px;
+    background-color:#093611;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+}
+
+.footer h2{
+    color: #9dc9a4;
+}
+
+.sociais .social a {
+    color: #000;
+    font-size: 1.5em;
+}
+
+
 .hello-kitty {
     display: flex;
     align-items: center;

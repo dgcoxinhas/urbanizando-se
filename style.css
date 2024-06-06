@@ -202,7 +202,9 @@ header a {
     padding: 14% 0;
     font-size: 397%;
     font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 600;
+    font-style: normal;
 }
 
 .cont-titulo{

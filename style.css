@@ -256,3 +256,18 @@ main{
     font-size: 178%;
     padding: 0 6%;
 }
+
+
+@media(max-width: 950px){
+    footer {
+        flex-direction: column;
+    }
+    footer .boxs {
+       
+        width: 320px;
+        text-align: center;
+    }
+    footer .boxs:nth-child(4) {
+        width: 100%;
+        }
+}

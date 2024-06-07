@@ -58,7 +58,7 @@ footer {
 
 footer .boxs {
   
-    width: 320px;
+    width: 100%;
     min-height: 150px;
     padding: 20px;
 }
@@ -263,16 +263,10 @@ main{
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (min-width: 300px) and (max-width: 950px){
     footer {
         display: flex;
         flex-direction: column;
     }
-    footer .boxs {
-       
-        width: 320px;
-        text-align: center;
-    }
-
 }
 

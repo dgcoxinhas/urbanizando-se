@@ -53,6 +53,7 @@ footer {
     display: flex;
     width: 100%;
     background: #214427;
+    flex-direction: column;
 }
 
 footer .boxs {
@@ -262,10 +263,10 @@ main{
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 950px){
+@media screen and (min-width: 1024px) {
     footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 

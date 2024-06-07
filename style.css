@@ -67,10 +67,6 @@ footer .boxs {
     margin-bottom: 20px;
  }
 
-footer .boxs:nth-child(4) {
- width: 400px;
- }
-
  .boxs ul li{
     margin:10px 0px;
     list-style: none;
@@ -301,7 +297,7 @@ main{
 }
 
 
-@media(max-width: 950px){
+@media screen and (max-width: 950px){
     footer {
         flex-direction: column;
     }

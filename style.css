@@ -113,10 +113,12 @@ header a {
     margin: 25px 4%;
     padding: 14% 0;
     font-size: 397%;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
     font-style: normal;
-}
+    }
+
 
 .cont-titulo{
     font-family: "DM sans", sans-serif;

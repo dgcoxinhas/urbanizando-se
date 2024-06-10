@@ -147,6 +147,11 @@ header a {
   font-style: normal;
 }
 
+.caixa-pesquisa {
+    top: 50%;
+    left: 50%;
+    height: 148px;
+}
 
 .icon-pesquisa {
     user-select: none;
@@ -172,12 +177,7 @@ header a {
 
 }
 
-.caixa-pesquisa {
-    top: 50%;
-    left: 50%;
-    height: 68px;
 
-}
 
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
@@ -264,7 +264,12 @@ footer .boxs {
         font-family: "oswald", sans-serif;
     }
     
+.caixa-pesquisa {
+    top: 50%;
+    left: 50%;
+    height: 68px;
 
+}
 
 
 

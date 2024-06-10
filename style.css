@@ -127,6 +127,14 @@ header a {
   font-style: normal;
 }
 
+.div{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 363;
+  font-style: normal;
+  font-size: 38px;
+  padding: 0 6%;
+}
 
 .letrinha-pequena{
     font-size: 65%;

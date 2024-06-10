@@ -17,18 +17,17 @@ h1 {
     color: var(--cor-do-texto);
 }
 
-.nome {
-    font-size: 55px;
-    color: #9dc9a4;
-    font-family: "oswald", sans-serif;
-}
-
-
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #214427;
+}
+
+.nome {
+    font-size: 55px;
+    color: #9dc9a4;
+    font-family: "oswald", sans-serif;
 }
 
 .logo {
@@ -50,7 +49,7 @@ section {
 .hello-kitty {
     display: flex;
     align-items: center;
-    margin: -5% 0;
+    margin: -3% 0;
 }
 
 

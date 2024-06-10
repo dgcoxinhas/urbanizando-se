@@ -250,6 +250,25 @@ footer .boxs {
  }
 
 @media screen and (min-width: 1024px) {
+
+    .hello-kitty {
+        display: flex;
+        align-items: center;
+        margin: -5% 0;
+    }
+    
+    .nome {
+        padding: 0 19px;
+        font-size: 55px;
+        color: #9dc9a4;
+        font-family: "oswald", sans-serif;
+    }
+    
+
+
+
+
+
     footer {
         display: flex;
         flex-direction: row;

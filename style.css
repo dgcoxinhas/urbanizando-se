@@ -80,7 +80,7 @@ header a {
 .titulo-principal{
     margin: 25px 4%;
     padding: 14% 0;
-    font-size: 76px;
+    font-size: 66px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -100,12 +100,11 @@ header a {
 }
 
 .apresentação{
-    font-size: 32px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;
     font-style: normal;
-    font-size: 178%;
+    font-size: 35px;
     padding: 0 6%;
 }
 
@@ -114,13 +113,13 @@ header a {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 252%;
+    font-size: 35px;
     padding: 0 4%;
     color: #030e04;
 }
 
 .desenvol{
-  font-size: 43px;
+  font-size: 35px;
   padding: 0 6%;
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;

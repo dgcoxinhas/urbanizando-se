@@ -43,7 +43,6 @@ header {
 section {
     display: flex;
     color: rgb(#000000);
-    padding: 20px;
     background-color: #ffffff;
 }
 

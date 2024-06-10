@@ -137,8 +137,13 @@ header a {
 }
 
 .desenvol{
-    font-size: 178%;
-    padding: 0 6%;
+  font-size: 43px;
+  padding: 0 6%;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 336;
+  font-style: normal;
+}
 }
 
 .letrinha-pequena{

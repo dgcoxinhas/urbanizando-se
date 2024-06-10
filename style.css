@@ -127,8 +127,9 @@ header a {
 }
 
 .topico{
-    font-family: "Libre Baskerville", serif;
-    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
     font-style: normal;
     font-size: 252%;
     padding: 0 4%;

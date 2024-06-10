@@ -96,7 +96,8 @@ header a {
 }
 
 .img-casa{
-    width: 35%
+    width: 35%;
+    float: right;
 }
 
 .apresentação{
@@ -137,6 +138,8 @@ header a {
 }
 
 .letrinha-pequena{
+  margin-top: -41px;
+  padding: 0 31%;
   font-size: 25px;
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;

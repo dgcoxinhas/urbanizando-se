@@ -53,16 +53,6 @@ section {
     margin: -5% 0;
 }
 
-.doces {
-
-    padding: 14px;
-    width: 226px;
-    font-size: 25px;
-    margin: 0 29px;
-    text-align: center;
-    border-radius: 17%;
-}
-
 .titulo {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -137,7 +127,9 @@ header a {
 }
 
 .topico{
-
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 252%;
     padding: 0 4%;
     color: #030e04;

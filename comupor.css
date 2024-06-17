@@ -139,6 +139,16 @@ main{
     color: #030e04;
 }
 
+.quem_somos{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 4%;
+    color: #030e04;
+}
+
 .desenvol{
   font-size: 35px;
   padding: 0 6%;
@@ -176,6 +186,7 @@ main{
     transition: .5s;
     background-color: #afbbb1;
     border-radius: 92px;
+    padding-bottom: 172px;
 }
 
 

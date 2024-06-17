@@ -45,7 +45,7 @@ header a {
 .hello-kitty {
     display: flex;
     align-items: center;
-    margin: -3% 0;
+    margin: -5% 0;
 }
 
 
@@ -238,7 +238,7 @@ footer .boxs {
     .hello-kitty {
         display: flex;
         align-items: center;
-        margin: -5% 0;
+        margin: -3% 0;
     }
     
     .nome {

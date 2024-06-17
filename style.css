@@ -17,13 +17,11 @@ h1 {
     color: var(--cor-do-texto);
 }
 
-.nome {
-    font-size: 55px;
-    color: #9dc9a4;
-    font-family: "oswald", sans-serif;
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
 }
-
-
 
 header {
     display: flex;
@@ -37,6 +35,11 @@ header a {
     text-decoration: none;
 }
 
+.nome {
+    font-size: 55px;
+    color: #9dc9a4;
+    font-family: "oswald", sans-serif;
+}
 
 .logo {
     width: 32%;
@@ -46,17 +49,10 @@ header a {
     right: 37px;
 }
 
-section {
-    display: flex;
-    color: rgb(#000000);
-    background-color: #ffffff;
-}
-
-
 .hello-kitty {
     display: flex;
     align-items: center;
-    margin: -3% 0;
+    margin: -5% 0;
 }
 
 .titulo {
@@ -123,7 +119,7 @@ section {
     font-style: normal;
   }
   
-  .div{
+.div{
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 365;
@@ -247,7 +243,7 @@ footer .boxs {
     .hello-kitty {
         display: flex;
         align-items: center;
-        margin: -5% 0;
+        margin: -3% 0;
     }
 
     .nome {

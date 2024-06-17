@@ -147,6 +147,7 @@ main{
     font-size: 35px;
     padding: 0 4%;
     color: #030e04;
+    padding-top: 4%;
 }
 
 .desenvol{
@@ -175,20 +176,20 @@ main{
     font-style: normal;
   }
  
-.texto-comunidade{
-    width: 74%;
-    margin: 0 97px;
+.texto-comunidade {
+    display: flex;
+    width: 400px;
+    margin: 0 28px;
     background: none;
     outline: none;
     padding: 20px;
     font-size: 16px;
-    line-height: 40px;
     transition: .5s;
     background-color: #afbbb1;
-    border-radius: 92px;
-    padding-bottom: 172px;
+    border-radius: 25px;
+    padding-bottom: 164px;
+    flex-wrap: wrap;
 }
-
 
 .caixa-comunidade{
         height: 168px;
@@ -250,6 +251,20 @@ footer .boxs {
         height: 68px;
 
     }
+
+    .texto-comunidade{
+        width: 74%;
+        margin: 0 97px;
+        background: none;
+        outline: none;
+        padding: 20px;
+        font-size: 16px;
+        transition: .5s;
+        background-color: #afbbb1;
+        border-radius: 25px;
+        padding-bottom: 172px;
+    }
+    
 
     footer {
         display: flex;

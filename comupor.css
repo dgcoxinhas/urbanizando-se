@@ -22,6 +22,11 @@ header {
     align-items: center;
     background-color: #214427;
 }
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
 
 .nome {
     font-size: 55px;
@@ -50,19 +55,6 @@ header {
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
-    
-}
-
-header a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.titulo {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
 }
 
 .icon-pesquisa {
@@ -82,7 +74,7 @@ header a {
     background-color: #4c8355;
     border-radius: 92px;
 }
-    
+
 .icon {
     width: 40px;
     height: 40px;
@@ -90,14 +82,23 @@ header a {
 }
 
 .caixa-pesquisa {
-
+    display: flex;
     height: 168px;
+    align-items: center;
 
 }
 
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
 }
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
 
 nav{
     height: 100%;

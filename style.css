@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    letter-spacing: 1px;
 }
 
 :root {
@@ -19,10 +18,11 @@ h1 {
 }
 
 .nome {
-    font-size: 479%;
+    font-size: 55px;
     color: #9dc9a4;
-    padding: 0 7%;
+    font-family: "oswald", sans-serif;
 }
+
 
 
 header {
@@ -31,6 +31,12 @@ header {
     align-items: center;
     background-color: #214427;
 }
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
 
 .logo {
     width: 32%;
@@ -47,56 +53,11 @@ section {
     background-color: #ffffff;
 }
 
-footer {
-    min-height: 250px;
-    display: flex;
-    width: 100%;
-    background: #214427;
-    flex-direction: column;
-    text-align: center;
-}
-
-footer .boxs {
-    text-align: center;
-    width: 100%;
-    min-height: 150px;
-    padding: 52px;
-    font-size: 32px;
-}
-
- .boxs h2{
-    color: #b6e9be;
-    margin-bottom: 20px;
- }
-
- .boxs ul li{
-    margin:10px 0px;
-    list-style: none;
- }
-
- .boxs ul li a{
-    color:#e5f7e7;
-    text-decoration: none;
- }
-
- .boxs ul li a:hover {
-    color:#9dc9a4;
- }
 
 .hello-kitty {
     display: flex;
     align-items: center;
-    margin: -5% 0;
-}
-
-.doces {
-
-    padding: 14px;
-    width: 226px;
-    font-size: 25px;
-    margin: 0 29px;
-    text-align: center;
-    border-radius: 17%;
+    margin: -3% 0;
 }
 
 .titulo {
@@ -106,6 +67,7 @@ footer .boxs {
     font-style: normal;
 }
 
+
 #icon-pesquisa {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -114,58 +76,33 @@ footer .boxs {
     margin: 7% 20%;
     
 }
-
-.div-equipe {
-
-    text-align: center;
-    border-radius: 70px;
-
+.apresentação{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 6%;
 }
-
-.rodape {
-    background-color: #0a3311;
-    display: grid;
-    grid-template-columns: 55% 45%;
-    font-size: 25px;
-    align-items: center;
-}
-
-header a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.item {
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-}
-
-.logos {
-    margin: 0 10%;
-    padding: 6%;
-    display: flex;
-    align-items: center;
-}
-
-.logos2 {
-    margin: 0 12%;
-    padding: 6%;
-    display: flex;
-    align-items: center;
-}
-
 
 .img-casa{
-    width: 51%;
-    padding: 300px 0%;
+    width: 35%;
+    float: right;
+}
+.img-solu{
+    width: 35%;
+    float: right;
 }
 
 .titulo-principal{
-    margin: 25px 4%;
-    padding: 14% 0;
-    font-size: 397%;
-}
+    margin-top: 252px;
+    padding: 20px 98px;
+    font-size: 66px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    }
 
 .topico{
     font-family: "Source Sans 3", sans-serif;
@@ -173,6 +110,7 @@ header a {
     font-weight: 800;
     font-style: normal;
     font-size: 35px;
+    font-size: 252%;
     padding: 0 4%;
     color: #030e04;
 }
@@ -184,6 +122,15 @@ header a {
     font-optical-sizing: auto;
     font-weight: 336;
     font-style: normal;
+  }
+  
+  .div{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 365;
+    font-style: normal;
+    font-size: 35px;
+    padding: 2% 5%;
   }
 
 .letrinha-pequena{
@@ -220,10 +167,9 @@ header a {
 }
 
 .caixa-pesquisa {
-    top: 50%;
-    left: 50%;
     height: 68px;
-
+    display: flex;
+    align-items: center;
 }
 
 .caixa-pesquisa:hover > .texto-pesqu {
@@ -260,32 +206,62 @@ main{
     transition: margin-left 0.5s;
 }
 
-.apresentação{
-    font-size: 178%;
-    padding: 0 6%;
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #214427;
+    flex-direction: column;
+    text-align: center;
 }
 
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+}
 
-@media(max-width: 950px){
+.boxs h2{
+    color: #b6e9be;
+    margin-bottom: 20px;
+ }
+
+ .boxs ul li{
+    margin:10px 0px;
+    list-style: none;
+ }
+
+ .boxs ul li a{
+    color:#e5f7e7;
+    text-decoration: none;
+ }
+
+ .boxs ul li a:hover {
+    color:#9dc9a4;
+ }
+
+ @media screen and (min-width: 1024px) {
 
     .hello-kitty {
         display: flex;
         align-items: center;
         margin: -5% 0;
     }
-    
+
     .nome {
         padding: 0 19px;
         font-size: 70px;
         color: #9dc9a4;
         font-family: "oswald", sans-serif;
     }
-    
+
     .caixa-pesquisa {
         height: 68px;
 
     }
-
     footer {
         display: flex;
         flex-direction: row;

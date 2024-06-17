@@ -180,6 +180,7 @@ main{
   }
   
 .logo{
+    width: 43%;
     float: left;
     padding: 6%;
 }

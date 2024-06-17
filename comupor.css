@@ -139,6 +139,16 @@ main{
     padding: 0 4%;
     color: #030e04;
 }
+.topico1{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 4%;
+    color: #030e04;
+    padding-top: 91px;
+}
 
 .quem_somos{
     font-family: "Source Sans 3", sans-serif;

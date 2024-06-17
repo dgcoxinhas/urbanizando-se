@@ -209,6 +209,8 @@ header a {
 }
 
 .caixa-pesquisa {
+    top: 50%;
+    left: 50%;
     height: 68px;
 
 }

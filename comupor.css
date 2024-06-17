@@ -1,3 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo)
+}
+
+h1 {
+    color: var(--cor-do-texto);
+}
 header {
     display: flex;
     justify-content: space-around;

@@ -164,7 +164,24 @@ main{
     font-weight: 200;
     font-style: normal;
   }
-  
+ 
+.texto-comunidade{
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    transition: .5s;
+    background-color: #afbbb1;
+    border-radius: 92px;
+}
+
+
+.caixa-comunidade{
+        height: 168px;
+    }
+
 
 footer {
     min-height: 250px;

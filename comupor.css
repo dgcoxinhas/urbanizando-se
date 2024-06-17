@@ -46,3 +46,129 @@ header a {
     font-weight: 400px;
     font-style: normal;
 }
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #4c8355;
+    border-radius: 92px;
+}
+    
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.caixa-pesquisa {
+
+    height: 168px;
+
+}
+
+.caixa-pesquisa:hover > .texto-pesqu {
+   width: 240px;
+}
+
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #214427;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: widht 0.3s;
+}
+
+nav a{
+    padding: 20px 0;
+    color: #9dc9a4;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px ;
+}
+
+nav a:hover{
+    color: #214427;
+    background-color: #9dc9a4;
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #214427;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+}
+
+ .boxs h2{
+    color: #b6e9be;
+    margin-bottom: 20px;
+ }
+
+ .boxs ul li{
+    margin:10px 0px;
+    list-style: none;
+ }
+
+ .boxs ul li a{
+    color:#e5f7e7;
+    text-decoration: none;
+ }
+
+ .boxs ul li a:hover {
+    color:#9dc9a4;
+ }
+
+@media screen and (min-width: 1024px) {
+
+    .hello-kitty {
+        display: flex;
+        align-items: center;
+        margin: -5% 0;
+    }
+    
+    .nome {
+        padding: 0 19px;
+        font-size: 70px;
+        color: #9dc9a4;
+        font-family: "oswald", sans-serif;
+    }
+    
+    .caixa-pesquisa {
+        height: 68px;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}

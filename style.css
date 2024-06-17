@@ -51,23 +51,22 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
-    display: flex;
     background: #214427;
+    flex-direction: column;
+    text-align: center;
 }
 
 footer .boxs {
-  
-    width: 320px;
+    text-align: center;
+    width: 100%;
     min-height: 150px;
-    padding: 20px;
+    padding: 52px;
+    font-size: 32px;
 }
+
  .boxs h2{
     color: #b6e9be;
     margin-bottom: 20px;
- }
-
-footer .boxs:nth-child(4) {
- width: 400px;
  }
 
  .boxs ul li{
@@ -169,20 +168,32 @@ header a {
 }
 
 .topico{
-
-    font-size: 252%;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
     padding: 0 4%;
     color: #030e04;
 }
 
 .desenvol{
-    font-size: 178%;
+    font-size: 35px;
     padding: 0 6%;
-}
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+  }
 
 .letrinha-pequena{
-    font-size: 65%;
-}
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+ 
 
 .icon-pesquisa {
     user-select: none;
@@ -256,15 +267,27 @@ main{
 
 
 @media(max-width: 950px){
+
+    .hello-kitty {
+        display: flex;
+        align-items: center;
+        margin: -5% 0;
+    }
+    
+    .nome {
+        padding: 0 19px;
+        font-size: 70px;
+        color: #9dc9a4;
+        font-family: "oswald", sans-serif;
+    }
+    
+    .caixa-pesquisa {
+        height: 68px;
+
+    }
+
     footer {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
-    footer .boxs {
-       
-        width: 320px;
-        text-align: center;
-    }
-    footer .boxs:nth-child(4) {
-        width: 100%;
-        }
 }

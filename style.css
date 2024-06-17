@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
 :root {
@@ -17,17 +18,18 @@ h1 {
     color: var(--cor-do-texto);
 }
 
+.nome {
+    font-size: 479%;
+    color: #9dc9a4;
+    padding: 0 7%;
+}
+
+
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #214427;
-}
-
-.nome {
-    font-size: 55px;
-    color: #9dc9a4;
-    font-family: "oswald", sans-serif;
 }
 
 .logo {
@@ -38,20 +40,72 @@ header {
     right: 37px;
 }
 
-
 section {
     display: flex;
     color: rgb(#000000);
+    padding: 20px;
     background-color: #ffffff;
 }
 
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    background: #214427;
+}
+
+footer .boxs {
+  
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+ .boxs h2{
+    color: #b6e9be;
+    margin-bottom: 20px;
+ }
+
+footer .boxs:nth-child(4) {
+ width: 400px;
+ }
+
+ .boxs ul li{
+    margin:10px 0px;
+    list-style: none;
+ }
+
+ .boxs ul li a{
+    color:#e5f7e7;
+    text-decoration: none;
+ }
+
+ .boxs ul li a:hover {
+    color:#9dc9a4;
+ }
 
 .hello-kitty {
     display: flex;
     align-items: center;
-    margin: -3% 0;
+    margin: -5% 0;
 }
 
+.doces {
+
+    padding: 14px;
+    width: 226px;
+    font-size: 25px;
+    margin: 0 29px;
+    text-align: center;
+    border-radius: 17%;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
 
 #icon-pesquisa {
     display: grid;
@@ -62,85 +116,73 @@ section {
     
 }
 
+.div-equipe {
+
+    text-align: center;
+    border-radius: 70px;
+
+}
+
+.rodape {
+    background-color: #0a3311;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    font-size: 25px;
+    align-items: center;
+}
+
 header a {
     color: #000000;
     text-decoration: none;
 }
 
-.titulo {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
+.item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
 
+.logos {
+    margin: 0 10%;
+    padding: 6%;
+    display: flex;
+    align-items: center;
+}
 
-.titulo-principal{
-    margin-top: 252px;
-    padding: 20px 98px;
-    font-size: 66px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    }
-
+.logos2 {
+    margin: 0 12%;
+    padding: 6%;
+    display: flex;
+    align-items: center;
+}
 
 
 .img-casa{
-    width: 35%;
-    float: right;
-}
-.img-solu{
-    width: 35%;
-    float: right;
+    width: 51%;
+    padding: 300px 0%;
 }
 
-.apresentação{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
-    font-size: 35px;
-    padding: 0 6%;
+.titulo-principal{
+    margin: 25px 4%;
+    padding: 14% 0;
+    font-size: 397%;
 }
 
 .topico{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35px;
+
+    font-size: 252%;
     padding: 0 4%;
     color: #030e04;
 }
 
 .desenvol{
-  font-size: 35px;
-  padding: 0 6%;
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 336;
-  font-style: normal;
-}
-
-.div{
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 365;
-  font-style: normal;
-  font-size: 35px;
-  padding: 2% 5%;
+    font-size: 178%;
+    padding: 0 6%;
 }
 
 .letrinha-pequena{
-  font-size: 25px;
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+    font-size: 65%;
 }
-
 
 .icon-pesquisa {
     user-select: none;
@@ -167,8 +209,9 @@ header a {
 }
 
 .caixa-pesquisa {
-
-    height: 168px;
+    height: 68px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -206,65 +249,22 @@ main{
     transition: margin-left 0.5s;
 }
 
-footer {
-    min-height: 250px;
-    display: flex;
-    width: 100%;
-    background: #214427;
-    flex-direction: column;
-    text-align: center;
+.apresentação{
+    font-size: 178%;
+    padding: 0 6%;
 }
 
-footer .boxs {
-    text-align: center;
-    width: 100%;
-    min-height: 150px;
-    padding: 52px;
-    font-size: 32px;
-}
 
- .boxs h2{
-    color: #b6e9be;
-    margin-bottom: 20px;
- }
-
- .boxs ul li{
-    margin:10px 0px;
-    list-style: none;
- }
-
- .boxs ul li a{
-    color:#e5f7e7;
-    text-decoration: none;
- }
-
- .boxs ul li a:hover {
-    color:#9dc9a4;
- }
-
-@media screen and (min-width: 1024px) {
-
-    .hello-kitty {
-        display: flex;
-        align-items: center;
-        margin: -5% 0;
-    }
-    
-    .nome {
-        padding: 0 19px;
-        font-size: 70px;
-        color: #9dc9a4;
-        font-family: "oswald", sans-serif;
-    }
-    
-    .caixa-pesquisa {
-        height: 68px;
-
-    }
-
+@media(max-width: 950px){
     footer {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
+    footer .boxs {
+       
+        width: 320px;
+        text-align: center;
+    }
+    footer .boxs:nth-child(4) {
+        width: 100%;
+        }
 }
-

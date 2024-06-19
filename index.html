@@ -22,7 +22,7 @@
 
 
 
-<body>
+<body class="animals">
  
     <header>
         <div class="hello-kitty">
@@ -33,7 +33,7 @@
 
         <div class="caixa-pesquisa">
 
-        <input type="text" class="texto-pesqu" placeholder="Pesquisar">
+        <input type="search" class="texto-pesqu" placeholder="Pesquisar" name="searchbar" onkeyup="search()">
 
         <a href="#" class="icon-pesqu">
 
@@ -57,8 +57,6 @@
 </nav>
 
 </header>
-
-
 
 <section>
 
@@ -194,6 +192,7 @@ campo que querem se urbanalizar, seja por vontade, ou por precisão.</p>
 
 </div>
 
+
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 
   <script>
@@ -211,7 +210,30 @@ campo que querem se urbanalizar, seja por vontade, ou por precisão.</p>
     document.getElementById('menu').style.width= '0px';
  }
 
+ function search(){
+
+let input = document.getElementById('searchbar').value
+
+input = input.toLowerCase()
+
+let x = document.getElementsByClassName('animals')
+
+for(i = 0; i < x.length; i++){
+
+if(!x[i].innerHTML.toLowerCase().includes(input))
+{
+x[i].style.display = "none"
+
+}else{
+
+x[i].style.display = "list-item"
+
+}
+}
+}
+
 </script>
+
 
 <section>
     <footer>
@@ -238,6 +260,7 @@ campo que querem se urbanalizar, seja por vontade, ou por precisão.</p>
 </div>
 
 </footer>
+
 </section>
 
 </body>

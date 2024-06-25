@@ -262,6 +262,7 @@ footer .boxs {
     text-decoration: none;
     user-select: none;
     cursor: pointer;
+    color: #000000;
 } 
 
 @media screen and (min-width: 1024px) {

@@ -107,6 +107,8 @@ header a {
 }
 
 
+
+
 nav{
     height: 100%;
     width: 0px;
@@ -156,6 +158,13 @@ main{
     color: #030e04;
     padding-top: 91px;
 }
+
+.section{
+    background-color: #ffffff;
+    border-color: #9dc9a4;
+    border-radius: 5%;
+}
+
 
 .quem_somos{
     font-family: "Source Sans 3", sans-serif;

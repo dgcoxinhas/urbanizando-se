@@ -265,7 +265,7 @@ footer .boxs {
     color: #000000;
 } 
 
-.rede-social :hover{
+.rede-social p a:hover{
    color: #001d09;
 }
 

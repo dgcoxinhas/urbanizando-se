@@ -259,9 +259,11 @@ footer .boxs {
  }
 
 .rede-social{
+    text-decoration: none;
     user-select: none;
     cursor: pointer;
 } 
+
 @media screen and (min-width: 1024px) {
 
     .hello-kitty {

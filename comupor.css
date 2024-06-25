@@ -265,6 +265,10 @@ footer .boxs {
     color: #000000;
 } 
 
+.rede-social :hover{
+   color: #001d09;
+}
+
 @media screen and (min-width: 1024px) {
 
     .hello-kitty {

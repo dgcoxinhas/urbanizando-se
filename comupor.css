@@ -160,10 +160,12 @@ main{
 }
 
 .section{
-    background-color: #ffffff;
-    border-color: #9dc9a4;
-    border-radius: 5%;
+        background-color: #ffffff;
+        margin: 1% 10%;
+        border-radius: 50px;
+        border: 50px solid rgba(213,229,218,0.62)
 }
+
 
 
 .quem_somos{

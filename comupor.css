@@ -172,6 +172,7 @@ main{
 }
 
 .desenvol{
+  padding: 0 50;
   font-size: 26px;
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
@@ -182,11 +183,11 @@ main{
 .logo{
     float: left;
     padding: 5%;
-    
+
 }
 .descri{
-    font-size: 35px;
-    padding: 91px;
+    font-size: 29px;
+    padding: 34px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;

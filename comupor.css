@@ -99,8 +99,6 @@ header a {
 }
 
 
-
-
 nav{
     height: 100%;
     width: 0px;
@@ -183,8 +181,10 @@ main{
 .logo{
     float: left;
     padding: 5%;
-
+    user-select: none;
+    cursor: pointer;
 }
+
 .descri{
     font-size: 29px;
     padding: 34px;

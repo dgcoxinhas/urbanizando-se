@@ -71,6 +71,47 @@ header a {
     margin: 7% 20%;
     
 }
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #4c8355;
+    border-radius: 92px;
+}
+    
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.caixa-pesquisa {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa:hover > .texto-pesqu {
+   width: 240px;
+}
+
+.menu{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
 .apresentação{
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
@@ -137,46 +178,7 @@ header a {
   }
  
 
-.icon-pesquisa {
-    user-select: none;
-    cursor: pointer;
-}
 
-.texto-pesqu {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 16px;
-    line-height: 40px;
-    width: 0;
-    transition: .5s;
-    background-color: #4c8355;
-    border-radius: 92px;
-}
-    
-.icon {
-    width: 40px;
-    height: 40px;
-
-}
-
-.caixa-pesquisa {
-    height: 68px;
-    display: flex;
-    align-items: center;
-}
-
-.caixa-pesquisa:hover > .texto-pesqu {
-   width: 240px;
-}
-
-.menu{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
-}
 
 nav{
     height: 100%;

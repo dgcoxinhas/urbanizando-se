@@ -217,9 +217,9 @@ main{
     font-style: normal;
   }
  
-.texto-comunidade {
+  .texto-comunidade {
     display: flex;
-    width: 400px;
+    width: 90%;
     margin: 0 28px;
     background: none;
     outline: none;
@@ -230,12 +230,13 @@ main{
     border-radius: 25px;
     padding-bottom: 164px;
     flex-wrap: wrap;
+  }
+
+
+.caixa-comunidade {
+    margin: 18px 0px;
+    height: 168px;
 }
-
-.caixa-comunidade{
-        height: 168px;
-    }
-
 
 footer {
     min-height: 250px;
@@ -281,7 +282,7 @@ footer .boxs {
 } 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
 .descri{
     font-size: 29px;
@@ -314,6 +315,25 @@ footer .boxs {
     cursor: pointer;
     padding: 0 5%;
 }
+
+.texto-comunidade {
+    display: flex;
+    width: 400px;
+    margin: 0 28px;
+    background: none;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    transition: .5s;
+    background-color: #afbbb1;
+    border-radius: 25px;
+    padding-bottom: 164px;
+    flex-wrap: wrap;
+}
+
+.caixa-comunidade{
+        height: 168px;
+    }
 
     .hello-kitty {
         display: flex;

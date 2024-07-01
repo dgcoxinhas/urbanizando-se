@@ -303,7 +303,7 @@ footer .boxs {
   }
 
 .section {
-    padding: 0%;
+    padding: 2%;
     background-color: #ffffff;
     margin: 0 3%;
     border-radius: 50px;
@@ -324,7 +324,7 @@ footer .boxs {
     float: left;
     user-select: none;
     cursor: pointer;
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .logo {

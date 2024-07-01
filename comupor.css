@@ -162,7 +162,7 @@ main{
     background-color: #ffffff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid rgba(213, 229, 218, 0.62);
+    border: 27px solid rgb(162 193 172 / 62%);
 }
 
 .section1 {

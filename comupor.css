@@ -311,11 +311,12 @@ footer .boxs {
 }
 
 .logobr {
-    width: 47%;
+    margin-left: -31%;
+    width: 37%;
     float: left;
     user-select: none;
     cursor: pointer;
-    padding: 8% 5%;
+    padding: 4%;
 }
 
 .logobne {

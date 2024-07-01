@@ -40,6 +40,13 @@ header a {
     margin: -5% 0;
 }
 
+.marca {
+    width: 32%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    right: 37px; 
+}
 
 #icon-pesquisa {
     display: grid;

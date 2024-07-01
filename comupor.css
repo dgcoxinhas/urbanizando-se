@@ -328,9 +328,10 @@ footer .boxs {
     padding: 5%;
 }
 
-.logo{
+.logo {
+    width: 47%;
     float: left;
-    padding: 5%;
+    padding: 14% 5%;
     user-select: none;
     cursor: pointer;
 }

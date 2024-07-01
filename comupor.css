@@ -311,7 +311,7 @@ footer .boxs {
 }
 
 .logobr {
-    margin-left: -31%;
+    margin-left: -2%;
     width: 37%;
     float: left;
     user-select: none;
@@ -337,7 +337,6 @@ footer .boxs {
 
 .texto-comunidade {
     display: flex;
-    width: 400px;
     margin: 0 28px;
     background: none;
     outline: none;

@@ -335,6 +335,15 @@ footer .boxs {
     cursor: pointer;
 }
 
+.logohortinha {
+    border-radius: 17%;
+    width: 44%;
+    float: left;
+    padding: 0 5%;
+    user-select: none;
+    cursor: pointer;
+}
+
 .texto-comunidade {
     display: flex;
     margin: 0 28px;

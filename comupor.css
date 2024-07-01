@@ -304,19 +304,28 @@ footer .boxs {
     font-style: normal;
   }
 
-.section{
-        padding: 3%;
-        background-color: #ffffff;
-        margin: 0 3%;
-        border-radius: 50px;
-        border: 50px solid rgba(213,229,218,0.62)
+.section {
+    padding: 0%;
+    background-color: #ffffff;
+    margin: 0 3%;
+    border-radius: 50px;
+    border: 50px solid rgba(213, 229, 218, 0.62);
 }
 
-.logobr{
+.logobr {
+    width: 47%;
     float: left;
     user-select: none;
     cursor: pointer;
-    padding: 0 5%;
+    padding: 8% 5%;
+}
+
+.logobne {
+    width: 47%;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding: 5%;
 }
 
 .logo{

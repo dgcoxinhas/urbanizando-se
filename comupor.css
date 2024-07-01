@@ -136,24 +136,25 @@ main{
     transition: margin-left 0.5s;
 }
 
-.topico{
+.topico {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 35px;
-    padding: 0 4%;
+    font-size: 25px;
+    padding: 0 8%;
     color: #030e04;
 }
-.topico1{
+
+.topico1 {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 35px;
-    padding: 0 4%;
+    font-size: 30px;
+    padding: 0 11%;
     color: #030e04;
-    padding-top: 91px;
+    padding-top: 56px;
 }
 
 .section {
@@ -174,15 +175,16 @@ main{
     color: #030e04;
     padding-top: 4%;
 }
-
-.desenvol{
-  padding: 0 50px;
-  font-size: 26px;
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 336;
-  font-style: normal;
+.desenvol {
+    padding: 0 40px;
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
 }
+
+
 
 .logo {
     width: 99%;
@@ -342,6 +344,36 @@ footer .boxs {
 .caixa-comunidade{
         height: 168px;
     }
+
+.topico{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 4%;
+    color: #030e04;
+}
+
+.topico1{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 4%;
+    color: #030e04;
+    padding-top: 91px;
+}
+
+.desenvol{
+  padding: 0 50px;
+  font-size: 26px;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 336;
+  font-style: normal;
+}
 
     .hello-kitty {
         display: flex;

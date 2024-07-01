@@ -288,32 +288,17 @@ footer .boxs {
         align-items: center;
         margin: -3% 0;
     }
-    
+
     .nome {
         font-size: 70px;
         color: #9dc9a4;
         font-family: "oswald", sans-serif;
     }
-    
+
     .caixa-pesquisa {
         height: 68px;
 
     }
-
-    .texto-comunidade{
-        width: 74%;
-        margin: 0 97px;
-        background: none;
-        outline: none;
-        padding: 20px;
-        font-size: 16px;
-        transition: .5s;
-        background-color: #afbbb1;
-        border-radius: 25px;
-        padding-bottom: 172px;
-    }
-    
-
     footer {
         display: flex;
         flex-direction: row;

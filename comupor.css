@@ -156,15 +156,13 @@ main{
     padding-top: 91px;
 }
 
-.section{
-        padding: 3%;
-        background-color: #ffffff;
-        margin: 0 3%;
-        border-radius: 50px;
-        border: 50px solid rgba(213,229,218,0.62)
+.section {
+    padding: 3%;
+    background-color: #ffffff;
+    margin: 0 3%;
+    border-radius: 50px;
+    border: 27px solid rgba(213, 229, 218, 0.62);
 }
-
-
 
 .quem_somos{
     font-family: "Source Sans 3", sans-serif;
@@ -193,15 +191,16 @@ main{
     cursor: pointer;
 }
 
-.logobr{
+.logobr {
+    width: 91%;
     float: left;
     user-select: none;
     cursor: pointer;
-    padding: 0 5%;
+    padding: 5% 5%;
 }
 
 .descri{
-    font-size: 29px;
+    font-size: 19px;
     padding: 34px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
@@ -210,7 +209,8 @@ main{
   }
 
 .letrinha-pequena{
-    font-size: 25px;
+    margin: 0 31px;
+    font-size: 17px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -282,6 +282,38 @@ footer .boxs {
 
 
 @media screen and (min-width: 768px) {
+
+.descri{
+    font-size: 29px;
+    padding: 34px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+  }
+
+.letrinha-pequena{
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.section{
+        padding: 3%;
+        background-color: #ffffff;
+        margin: 0 3%;
+        border-radius: 50px;
+        border: 50px solid rgba(213,229,218,0.62)
+}
+
+.logobr{
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding: 0 5%;
+}
 
     .hello-kitty {
         display: flex;

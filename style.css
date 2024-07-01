@@ -248,7 +248,7 @@ footer .boxs {
     color:#9dc9a4;
  }
 
- @media screen and (min-width: 1024px) {
+ @media screen and (min-width: 768px) {
 
     .hello-kitty {
         display: flex;

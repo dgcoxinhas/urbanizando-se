@@ -184,7 +184,8 @@ main{
   font-style: normal;
 }
 
-.logo{
+.logo {
+    width: 99%;
     float: left;
     padding: 5%;
     user-select: none;
@@ -314,6 +315,13 @@ footer .boxs {
     user-select: none;
     cursor: pointer;
     padding: 0 5%;
+}
+
+.logo{
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
 }
 
 .texto-comunidade {

@@ -186,10 +186,11 @@ main{
 }
 
 .logobr{
-    margin-left: -34%;
+    margin-left: -31%;
     float: left;
     user-select: none;
     cursor: pointer;
+    padding: 1% 5%;
 }
 
 .descri{

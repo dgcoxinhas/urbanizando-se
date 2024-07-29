@@ -16,29 +16,28 @@ body {
 h1 {
     color: var(--cor-do-texto);
 }
-
-section {
-    display: flex;
-    color: rgb(#000000);
-    background-color: #ffffff;
-}
-
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #214427;
 }
-
 header a {
     color: #000000;
     text-decoration: none;
 }
 
+
 .nome {
     font-size: 55px;
     color: #9dc9a4;
     font-family: "oswald", sans-serif;
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
 }
 
 .marca {
@@ -49,27 +48,12 @@ header a {
     right: 37px; 
 }
 
-.hello-kitty {
-    display: flex;
-    align-items: center;
-    margin: -5% 0;
-}
-
-.titulo {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-}
-
-
 #icon-pesquisa {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
-    
 }
 
 .icon-pesquisa {
@@ -89,7 +73,7 @@ header a {
     background-color: #4c8355;
     border-radius: 92px;
 }
-    
+
 .icon {
     width: 40px;
     height: 40px;
@@ -97,13 +81,21 @@ header a {
 }
 
 .caixa-pesquisa {
-    height: 68px;
     display: flex;
+    height: 168px;
     align-items: center;
+
 }
 
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 .menu{
@@ -112,6 +104,7 @@ header a {
     font-weight: 336;
     font-style: normal;
 }
+
 
 nav{
     height: 100%;
@@ -247,7 +240,7 @@ main{
 }
 
 .logobr {
-    width: 85%;
+    width: 60%;
     float: left;
     user-select: none;
     cursor: pointer;

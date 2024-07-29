@@ -387,7 +387,7 @@ footer .boxs {
 .logofaemg {
     width: 47%;
     float: left;
-    padding: 0 5%;
+    padding: 5%;
     user-select: none;
     cursor: pointer;
 }

@@ -351,6 +351,19 @@ footer .boxs {
     font-style: normal;
   }
 
+  .letrinha-pequena1{
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    cursor: pointer;
+  }
+
+.letrinha-pequena1 p :hover {
+  color: #000a03;
+} 
+
 .section {
     padding: 2%;
     background-color: #ffffff;

@@ -369,7 +369,7 @@ footer .boxs {
 }
 
 .logobne {
-    width: 47%;
+    width: 38%;
     float: left;
     user-select: none;
     cursor: pointer;
@@ -384,10 +384,18 @@ footer .boxs {
     cursor: pointer;
 }
 
+.logofaemg {
+    width: 47%;
+    float: left;
+    padding: 0 5%;
+    user-select: none;
+    cursor: pointer;
+}
+
 .logoadvance {
     width: 47%;
     float: left;
-    padding: 1% 5%;
+    padding: 8% 5%;
     user-select: none;
     cursor: pointer;
 }

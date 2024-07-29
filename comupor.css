@@ -202,6 +202,24 @@ main{
     margin-top: 9%;
 }
 
+.logoadvance {
+    width: 58%;
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 9%;
+}
+
+.logofaemg {
+    width: 58%;
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 9%;
+}
+
 .logohortinha {
     border-radius: 17%;
     width: 44%;

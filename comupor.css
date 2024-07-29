@@ -245,6 +245,28 @@ main{
     font-weight: 200;
     font-style: normal;
   }
+
+  .letrinha-pequena1{
+    color: #000000;
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+  }
+
+  .letrinha-pequena1 p {
+    color: #000a03;
+    text-decoration: none;
+  } 
+
+.letrinha-pequena1 p :hover {
+  color: #000a03;
+} 
+ 
  
   .texto-comunidade {
     display: flex;
@@ -362,6 +384,11 @@ footer .boxs {
     text-decoration: none;
     user-select: none;
   }
+
+  .letrinha-pequena1 p {
+    color: #000a03;
+    text-decoration: none;
+  } 
 
 .letrinha-pequena1 p :hover {
   color: #000a03;

@@ -359,6 +359,7 @@ footer .boxs {
     font-weight: 200;
     font-style: normal;
     cursor: pointer;
+    font-style: none;
   }
 
 .letrinha-pequena1 p :hover {

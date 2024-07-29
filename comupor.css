@@ -203,21 +203,21 @@ main{
 }
 
 .logoadvance {
-    width: 58%;
+    width: 88%;
     float: left;
-    padding: 5%;
+    padding: 10% 0;
     user-select: none;
     cursor: pointer;
-    margin-top: 9%;
+    margin-left: 8%;
 }
 
 .logofaemg {
-    width: 58%;
+    width: 85%;
     float: left;
     padding: 5%;
     user-select: none;
     cursor: pointer;
-    margin-top: 9%;
+    margin-left: 5%;
 }
 
 .logohortinha {
@@ -231,19 +231,21 @@ main{
 }
 
 .logobne{
-    width: 46%;
+    width: 85%;
     float: left;
-    padding: 5% 2%;
+    padding: 5%;
     user-select: none;
     cursor: pointer;
+    margin-left: 10%;
 }
 
 .logobr {
-    width: 60%;
+    width: 85%;
     float: left;
     user-select: none;
     cursor: pointer;
-    padding: 5% 5%
+    padding: 5%;
+    margin-left: 10%;
 }
 
 .descri{

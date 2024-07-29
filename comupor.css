@@ -27,6 +27,35 @@ header a {
     text-decoration: none;
 }
 
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #214427;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: widht 0.3s;
+}
+
+nav a{
+    padding: 20px 0;
+    color: #9dc9a4;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px ;
+}
+
+nav a:hover{
+    color: #214427;
+    background-color: #9dc9a4;
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
 
 .nome {
     font-size: 55px;
@@ -106,35 +135,7 @@ header a {
 }
 
 
-nav{
-    height: 100%;
-    width: 0px;
-    background-color: #214427;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    overflow: hidden;
-    transition: widht 0.3s;
-}
 
-nav a{
-    padding: 20px 0;
-    color: #9dc9a4;
-    font-size: 25px;
-    display: block;
-    padding: 12px 10px 12px 32px ;
-}
-
-nav a:hover{
-    color: #214427;
-    background-color: #9dc9a4;
-}
-
-main{
-    padding: 10px;
-    transition: margin-left 0.5s;
-}
 
 .topico {
     font-family: "Source Sans 3", sans-serif;

@@ -489,6 +489,15 @@ footer .boxs {
         height: 168px;
     }
 
+.botao{    
+    margin-left: 3%;
+    width: 14%;
+    border-radius: 40px;
+    background: #aec9ba;
+    margin-top: 2%;
+    height: 48px;
+}
+
 .topico{
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;

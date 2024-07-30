@@ -307,7 +307,8 @@ main{
 }
 
 .botao{
-    color: #214427;
+    border-radius: 22%;
+    background: #aec9ba;
 }
 
 footer {

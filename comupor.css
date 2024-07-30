@@ -308,8 +308,7 @@ main{
 
 .botao{
     margin-left: 6%;
-    width: 17%;
-    border-radius: 22%;
+    border-radius: 46px;
     background: #aec9ba;
     margin-top: 2%;
 }

@@ -132,10 +132,11 @@
 
 <div class="caixa-comunidade">
  
-    
+    <form>
      <input type="hidden" name="accessKey" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c">
      <input type="text" name="name" class="texto-comunidade" placeholder="Conte sua história, experiência ou conselhos para pessoas nova na sociedade urbana obs.iremos publicar os relatos no nosso perfil do instagram).">
-     <button type="submit">envie</button>
+     <button class="botao" type="submit" onclick="msg()">envie</button>
+    </form>
 
 </div>
 </section>
@@ -187,6 +188,10 @@
  function fecharMenu() {
     document.getElementById('menu').style.width= '0px';
  }
+
+function msg() {
+  alert("Sua história foi enviada com sucesso!");
+}
 
 </script>
 

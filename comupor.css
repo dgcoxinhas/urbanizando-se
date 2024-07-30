@@ -306,6 +306,10 @@ main{
     height: 168px;
 }
 
+.botao{
+    color: #214427;
+}
+
 footer {
     min-height: 250px;
     display: flex;

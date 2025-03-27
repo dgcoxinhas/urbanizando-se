@@ -108,23 +108,9 @@ header a {
     font-weight: 336;
     font-style: normal;
 }
-.apresentação{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
-    font-size: 35px;
-    padding: 0 6%;
-}
 
-.img-casa{
-    width: 35%;
-    float: right;
-}
-.img-solu{
-    width: 35%;
-    float: right;
-}
+
+
 
 .titulo-principal{
     margin-top: 7%;
@@ -136,44 +122,8 @@ header a {
     font-style: normal;
     }
 
-.topico{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35px;
-    font-size: 252%;
-    padding: 0 4%;
-    color: #030e04;
-}
 
-.desenvol{
-    font-size: 35px;
-    padding: 0 6%;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
-  }
-  
-.div{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 365;
-    font-style: normal;
-    font-size: 35px;
-    padding: 2% 5%;
-  }
-
-.letrinha-pequena{
-    font-size: 25px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-  }
  
-
 
 
 nav{
@@ -217,37 +167,6 @@ footer {
     text-align: center;
 }
 
-footer .boxs {
-    text-align: center;
-    width: 100%;
-    min-height: 150px;
-    padding: 52px;
-    font-size: 32px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
-}
-
- .boxs h2{
-    color: #b6e9be;
-    margin-bottom: 20px;
- }
-
- .boxs ul li{
-    margin:10px 0px;
-    list-style: none;
- }
-
- .boxs ul li a{
-    color:#e5f7e7;
-    text-decoration: none;
- }
-
- .boxs ul li a:hover {
-    color:#9dc9a4;
- }
-
  @media screen and (min-width: 768px) {
 
     .hello-kitty {
@@ -267,8 +186,5 @@ footer .boxs {
         height: 68px;
 
     }
-    footer {
-        display: flex;
-        flex-direction: row;
-    }
+
 }

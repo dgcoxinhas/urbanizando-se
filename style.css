@@ -23,6 +23,9 @@ section {
     background-color: #ffffff;
 }
 
+.botao.esquerda{
+    
+}
 header {
     display: flex;
     justify-content: space-around;

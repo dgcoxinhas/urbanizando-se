@@ -82,7 +82,7 @@ header a {
     line-height: 40px;
     width: 0;
     transition: .5s;
-    background-color: #4c8355;
+    background-color: #9c5177;
     border-radius: 92px;
 }
     
@@ -129,7 +129,7 @@ header a {
 nav{
     height: 100%;
     width: 0px;
-    background-color: #214427;
+    background-color: #79213d;
     position: fixed;
     top: 0;
     right: 0;
@@ -140,31 +140,20 @@ nav{
 
 nav a{
     padding: 20px 0;
-    color: #9dc9a4;
+    color: #c99dac;
     font-size: 25px;
     display: block;
     padding: 9px 52px 12px 58px ;
 }
 
 nav a:hover{
-    color: #214427;
-    background-color: #9dc9a4;
+    color: #a53d6d;
+    background-color: #f3a1c3;
 }
 
 main{
     padding: 10px;
     transition: margin-left 0.5s;
-}
-
-
-
-footer {
-    min-height: 250px;
-    display: flex;
-    width: 100%;
-    background: #214427;
-    flex-direction: column;
-    text-align: center;
 }
 
  @media screen and (min-width: 768px) {

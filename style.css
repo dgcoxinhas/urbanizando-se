@@ -24,7 +24,8 @@ section {
 }
 
 .botao.esquerda{
-    
+    border-radius: 20px;
+    background-color: #ffeef4;
 }
 header {
     display: flex;

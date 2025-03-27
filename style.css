@@ -41,14 +41,6 @@ header a {
     font-family: "oswald", sans-serif;
 }
 
-.marca {
-    width: 32%;
-    padding: 1% 0;
-    position: relative;
-    top: 69px;
-    right: 37px; 
-}
-
 .hello-kitty {
     display: flex;
     align-items: center;

@@ -261,6 +261,7 @@ footer .boxs {
     }
 
     .nome {
+        padding: 0 86px;
         font-size: 70px;
         color: #ffffff;
         font-family: "oswald", sans-serif;

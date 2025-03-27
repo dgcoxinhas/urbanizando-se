@@ -41,10 +41,25 @@ header a {
     background-color: #ffeef4;
 }
 .ati{
-    background-color: #c99dac;
+    font-size: 23px;
+    padding: 6%;
+    background-color: #ffdce8;
     border-radius: 5px;
 }
 
+.prov{
+    font-size: 23px;
+    padding: 6%;
+    background-color: #ffdce8;
+    border-radius: 5px;
+}
+
+.proj{
+    font-size: 23px;
+    padding: 6%;
+    background-color: #ffdce8;
+    border-radius: 5px;
+}
 
 .nome {
     font-size: 55px;

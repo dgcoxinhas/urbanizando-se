@@ -24,6 +24,7 @@ section {
 }
 
 .botao.esquerda{
+    cursor: pointer;
     border-radius: 20px;
     background-color: #ffeef4;
 }
@@ -121,10 +122,6 @@ header a {
     font-weight: 800;
     font-style: normal;
     }
-
-
- 
-
 
 nav{
     height: 100%;

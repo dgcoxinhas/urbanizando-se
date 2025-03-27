@@ -23,11 +23,6 @@ section {
     background-color: #ffffff;
 }
 
-.botao.esquerda{
-    cursor: pointer;
-    border-radius: 20px;
-    background-color: #ffeef4;
-}
 header {
     display: flex;
     justify-content: space-around;
@@ -40,6 +35,17 @@ header a {
     text-decoration: none;
 }
 
+.botao.esquerda{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ffeef4;
+}
+.ati{
+    background-color: #c99dac;
+    border-radius: 5px;
+}
+
+
 .nome {
     font-size: 55px;
     color: #ffffff;
@@ -51,14 +57,6 @@ header a {
     align-items: center;
     margin: -5% 0;
 }
-
-.titulo {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-}
-
 
 #icon-pesquisa {
     display: grid;
@@ -74,6 +72,11 @@ header a {
     cursor: pointer;
 }
 
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
 .texto-pesqu {
     border: none;
     background: none;
@@ -86,13 +89,7 @@ header a {
     background-color: #9c5177;
     border-radius: 92px;
 }
-    
-.icon {
-    width: 40px;
-    height: 40px;
-
-}
-
+  
 .caixa-pesquisa {
     height: 68px;
     display: flex;
@@ -109,19 +106,6 @@ header a {
     font-weight: 336;
     font-style: normal;
 }
-
-
-
-
-.titulo-principal{
-    margin-top: 7%;
-    padding: 20px 98px;
-    font-size: 66px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    }
 
 nav{
     height: 100%;
@@ -170,7 +154,6 @@ main{
 
     .caixa-pesquisa {
         height: 68px;
-
     }
 
 }

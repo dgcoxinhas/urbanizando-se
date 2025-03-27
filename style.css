@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #214427;
+    background-color: #eb8fae;
 }
 
 header a {
@@ -37,7 +37,7 @@ header a {
 
 .nome {
     font-size: 55px;
-    color: #9dc9a4;
+    color: #c99dae;
     font-family: "oswald", sans-serif;
 }
 

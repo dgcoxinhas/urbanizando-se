@@ -134,7 +134,7 @@ nav{
     right: 0;
     z-index: 1;
     overflow: hidden;
-    transition: widht 0.3s;
+    transition: 0.3s;
 }
 
 nav a{

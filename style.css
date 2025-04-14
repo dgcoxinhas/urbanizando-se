@@ -157,16 +157,14 @@ main{
 
 
 .hero {
-    background-image: url('images/hero.jpg');
-    background-size: cover;
-    background-position: center;
+    margin:auto
     padding: 60px 0;
     color: white;
     text-align: center;
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.5);
+    background-color: #ec8dad;
     padding: 20px;
     border-radius: 10px;
 }

@@ -157,7 +157,8 @@ main{
 
 
 .hero {
-    margin: 3% 27%;
+    font-size: 34px;
+    margin: 0px 592px;
     padding: 60px 0;
     color: white;
     text-align: center;
@@ -170,11 +171,13 @@ main{
 }
 
 .content {
+    padding: 61px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
+    background-color: #ffdce8;
 }
 
 .card {

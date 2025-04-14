@@ -179,6 +179,9 @@ main{
     margin-top: 20px;
     background-color: #ffdce8;
 }
+.font {
+    font-size: 61px;
+}
 
 .card {
     background: white;

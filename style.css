@@ -183,6 +183,10 @@ main{
     font-size: 61px;
 }
 
+.aqui{
+    margin: 0 14%;
+    font-size: 33px;
+}
 .card {
     background: white;
     padding: 20px;

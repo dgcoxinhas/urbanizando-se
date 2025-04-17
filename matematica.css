@@ -1,0 +1,8 @@
+#equipe {
+    display: grid
+;
+    grid-template-columns: 50% 50%;
+    background-color: #ffd5b2;
+    border-radius: 40px;
+    margin: 7% 20%;
+}

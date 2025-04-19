@@ -155,7 +155,7 @@ main{
     transition: margin-left 0.5s;
 }
  
-section {
+.conteudos {
 width: 45%;
 min-width: 300px;
 }

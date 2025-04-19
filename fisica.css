@@ -173,7 +173,7 @@ color: #6d0033;
 .card {
     margin: 60px;
     border: 11px solid #f8cadc;
-
+    padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
     background-color: #fff;

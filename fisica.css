@@ -155,12 +155,6 @@ main{
     transition: margin-left 0.5s;
 }
 
-.main {
-display: flex;
-justify-content: space-around;
-padding: 20px;
-flex-wrap: wrap;
-}
   
 section {
 width: 45%;
@@ -188,9 +182,9 @@ color: #6d0033;
 .card h3 {
 color: #d6336c;
     margin-bottom: 8px;
- }
+}
   
 .card p {
     font-size: 14px;
     line-height: 1.5;
-t}
+}

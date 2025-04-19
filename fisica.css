@@ -156,41 +156,41 @@ main{
 }
 
 .main {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    flex-wrap: wrap;
-  }
+display: flex;
+justify-content: space-around;
+padding: 20px;
+flex-wrap: wrap;
+ }
   
-  section {
-    width: 45%;
-    min-width: 300px;
-  }
+section {
+width: 45%;
+min-width: 300px;
+}
   
-  h2 {
-    background-color: #f8cadc;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: #6d0033;
-  }
+h2 {
+background-color: #f8cadc;
+text-align: center;
+padding: 10px;
+margin-bottom: 20px;
+font-size: 18px;
+color: #6d0033;
+}
   
-  .card {
+.card {
     margin: 60px;
     border: 11px solid #f8cadc;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
     background-color: #fff;
-  }
+}
   
-  .card h3 {
-    color: #d6336c;
+.card h3 {
+color: #d6336c;
     margin-bottom: 8px;
-  }
+ }
   
-  .card p {
+.card p {
     font-size: 14px;
     line-height: 1.5;
-  }
+t}

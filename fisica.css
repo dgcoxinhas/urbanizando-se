@@ -170,7 +170,7 @@ font-size: 18px;
 color: #6d0033;
 }
   
-.card {
+.card2 {
     margin: 60px;
     border: 11px solid #f8cadc;
     padding: 15px;
@@ -179,12 +179,12 @@ color: #6d0033;
     background-color: #fff;
 }
   
-.card h3 {
+.card2 h3 {
 color: #d6336c;
     margin-bottom: 8px;
 }
   
-.card p {
+.card2 p {
     font-size: 14px;
     line-height: 1.5;
 }

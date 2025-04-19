@@ -155,15 +155,6 @@ main{
     transition: margin-left 0.5s;
 }
 
-#equipe {
-    display: grid
-;
-    grid-template-columns: 50% 50%;
-    background-color: #ffd5b2;
-    border-radius: 40px;
-    margin: 7% 20%;
-}
-
 .main {
     display: flex;
     justify-content: space-around;
@@ -186,7 +177,8 @@ main{
   }
   
   .card {
-    border: 3px solid #f8cadc;
+    margin: 60px;
+    border: 11px solid #f8cadc;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;

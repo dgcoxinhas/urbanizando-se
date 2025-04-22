@@ -312,35 +312,41 @@ main{
     transition: margin-left 0.5s;
 }
  
-.section {
-width: 45%;
-min-width: 300px;
-}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
   
-h2 {
-background-color: #f8cadc;
-text-align: center;
-padding: 10px;
-margin-bottom: 20px;
-font-size: 18px;
-color: #6d0033;
-}
+  section {
+    width: 45%;
+    min-width: 300px;
+  }
   
-.card2 {
-    margin: 60px;
-    border: 11px solid #f8cadc;
+  h2 {
+    background-color: #f8cadc;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #6d0033;
+  }
+  
+  .card {
+    border: 3px solid #f8cadc;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
     background-color: #fff;
-}
+  }
   
-.card2 h3 {
-color: #d6336c;
+  .card h3 {
+    color: #d6336c;
     margin-bottom: 8px;
-}
+  }
   
-.card2 p {
+  .card p {
     font-size: 14px;
     line-height: 1.5;
-}
+  }

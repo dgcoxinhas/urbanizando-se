@@ -312,9 +312,16 @@ main{
     transition: margin-left 0.5s;
 }
 
-.a{
-display: flex;
+.titi{
+    background-color: #eb8fae;
+    padding: 5px;
 }
+
+.a{
+ background-color:#ffffff;
+ display: flex;
+}
+
   .card {
     border: 8px solid #f7cce5;
     padding: 15px;

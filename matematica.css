@@ -316,7 +316,7 @@ main{
 display: flex;
 }
   .card {
-    border: 2px solid #f7cce5;
+    border: 8px solid #f7cce5;
     padding: 15px;
     border-radius: 8px;
     max-width: 600px;
@@ -330,6 +330,6 @@ display: flex;
   
   .card p {
     font-size: 14px;
-    color: #555;
+    color: #000000;
     text-align: justify;
   }

@@ -312,67 +312,18 @@ main{
     transition: margin-left 0.5s;
 }
  
-.container {
-    display: flex;
-    min-height: 100vh;
-  }
-  
-  .sidebar {
-    background-color: #f7cce5;
-    width: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .title {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .content {
-    flex: 1;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  
-  .section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .section-title {
-    font-weight: bold;
-    background-color: #f7cce5;
-    color: #fff;
-    padding: 10px 20px;
-    width: fit-content;
-    font-size: 18px;
-    border-radius: 4px;
-  }
-  
-  .card {
-    border: 2px solid #f7cce5;
+article {
+    background: white;
     padding: 15px;
+    margin-top: 10px;
     border-radius: 8px;
-    max-width: 600px;
-  }
-  
-  .card h3 {
-    color: #f06ba5;
-    font-size: 16px;
-    margin-bottom: 8px;
-  }
-  
-  .card p {
-    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    color: #e91e63;
+}
+
+article p {
     color: #555;
-    text-align: justify;
-  }
+}

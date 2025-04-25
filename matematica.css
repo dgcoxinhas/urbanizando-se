@@ -320,6 +320,7 @@ main{
 .a{
  background-color:#ffffff;
  display: flex;
+ padding: 4% 18%;
 }
 
   .card {

@@ -177,6 +177,9 @@ main{
   }
 
 .titi{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
     border-radius: 9px;
     margin: 6%;
     color: white;
@@ -186,6 +189,9 @@ main{
 }
 
 .titii{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
     padding: 0 24%;
     margin: 13px;
     display: flex;
@@ -194,18 +200,27 @@ main{
 
 
 .a{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
  background-color:#ffffff;
  display: flex;
  padding: 4%;
 }
 
 .b{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
     background-color:#ffffff;
     display: flex;
     padding: 4%;
    }
 
    .c{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
     background-color:#ffffff;
     display: flex;
     padding: 4%;
@@ -220,12 +235,18 @@ main{
   }
   
   .card h3 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
     color: #f06ba5;
     font-size: 36px;
     margin-bottom: 8px;
   }
   
   .card p {
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
     font-size: 37px;
     color: #000000;
     text-align: justify;

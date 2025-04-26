@@ -156,6 +156,7 @@ main{
 }
 
 .banner {
+    margin: 5% 14%;
     background-color: #f48fb1;
     color: white; 
     font-family: "Press Start 2P", system-ui;

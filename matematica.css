@@ -313,8 +313,12 @@ main{
 }
 
 .titi{
-    background-color: #eb8fae;
-    padding: 5px;
+    border-radius: 9px;
+    margin: 6%;
+    color: white;
+    font-size: 44px;
+    background-color: #ec8dad;
+    padding: 6px;
 }
 
 section .a{

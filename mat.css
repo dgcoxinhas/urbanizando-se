@@ -155,6 +155,23 @@ main{
     transition: margin-left 0.5s;
 }
 
+.banner {
+    background-color: #f48fb1;
+    color: white; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px; 
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+  
+  .banner span {
+    font-size: 18px;
+  }
+
 .titi{
     border-radius: 9px;
     margin: 6%;

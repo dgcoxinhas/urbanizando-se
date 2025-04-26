@@ -324,10 +324,11 @@ section .a{
 }
 
   .card {
-    border: 8px solid #f7cce5;
-    padding: 15px;
-    border-radius: 8px;
-    max-width: 600px;
+    padding: 0 20px;
+    border-radius: 17px;
+    border: 28px solid rgb(255, 109, 146);
+    font-size: 36px;
+    margin: 0 81px;
   }
   
   .card h3 {

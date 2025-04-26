@@ -167,6 +167,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 10px; 
+}   
   
   .banner span {
     font-size: 18px;

@@ -165,9 +165,11 @@ main{
 }
 
 .titii{
-    background-color:#ff81bc;
+    padding: 0 24%;
+    margin: 13px;
     display: flex;
-    padding: 4%;
+    background-color: #ffffff;
+}
 
 
 .a{

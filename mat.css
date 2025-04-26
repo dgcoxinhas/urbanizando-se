@@ -235,9 +235,8 @@ main{
   }
   
   .card h3 {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 144;
+    font-family: "VT323", monospace;
+    font-weight: 400;
     font-style: normal;
     color: #f06ba5;
     font-size: 36px;
@@ -245,10 +244,9 @@ main{
   }
   
   .card p {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 144;
-    font-style: normal;
+    font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
     font-size: 37px;
     color: #000000;
     text-align: justify;

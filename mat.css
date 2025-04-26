@@ -154,58 +154,58 @@ main{
     padding: 10px;
     transition: margin-left 0.5s;
 }
-nav {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+
+.titi{
+    border-radius: 9px;
+    margin: 6%;
+    color: white;
+    font-size: 44px;
+    background-color: #ec8dad;
+    padding: 6px;
 }
 
-nav button {
-    margin-right: 10px;
-    padding: 8px 15px;
-    border: none;
-    background: white;
-    color: #e91e63;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
+.titii{
+    padding: 0 24%;
+    margin: 13px;
+    display: flex;
+    background-color: #ffffff;
 }
 
-nav button:hover {
-    background: #f8bbd0;
+
+.a{
+ background-color:#ffffff;
+ display: flex;
+ padding: 4%;
 }
 
-.search-icon {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 24px;
-}
+.b{
+    background-color:#ffffff;
+    display: flex;
+    padding: 4%;
+   }
 
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    color: #333;
-}
-
-article {
-    background: white;
-    padding: 15px;
-    margin-top: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-article h3 {
-    color: #e91e63;
-}
-
-article p {
-    color: #555;
-}
+   .c{
+    background-color:#ffffff;
+    display: flex;
+    padding: 4%;
+   }
+   
+   
+  .card {
+    padding: 0 20px;
+    border-radius: 17px;
+    border: 28px solid rgb(255, 109, 146);
+    margin: 0 8px;
+  }
+  
+  .card h3 {
+    color: #f06ba5;
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 37px;
+    color: #000000;
+    text-align: justify;
+  }

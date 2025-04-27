@@ -213,7 +213,7 @@ main{
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #f05b87;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -221,8 +221,56 @@ main{
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #b61243;
 }
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #ff3672;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+}
+
+ .boxs h2{
+    color: #e9b6b6;
+    margin-bottom: 20px;
+ }
+
+ .boxs ul li{
+    margin:10px 0px;
+    list-style: none;
+ }
+
+ .boxs ul li a{
+    color:#f7e5e5;
+    text-decoration: none;
+ }
+
+ .boxs ul li a:hover {
+    color:#b3285d;
+ }
+
+.rede-social{
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    color: #000000;
+} 
+
 
  @media screen and (min-width: 768px) {
 

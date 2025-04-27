@@ -155,35 +155,104 @@ main{
     transition: margin-left 0.5s;
 }
  
-.section {
-width: 45%;
-min-width: 300px;
-}
+.banner {
+    margin: 5% 14%;
+    background-color: #f48fb1;
+    color: white; 
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 16px; 
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}   
   
-h2 {
-background-color: #f8cadc;
-text-align: center;
-padding: 10px;
-margin-bottom: 20px;
-font-size: 18px;
-color: #6d0033;
+  .banner span {
+    font-size: 64px;
+  }
+
+.titi{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    border-radius: 9px;
+    margin: 6%;
+    color: white;
+    font-size: 44px;
+    background-color: #ec8dad;
+    padding: 6px;
 }
-  
-.card2 {
-    margin: 60px;
-    border: 11px solid #f8cadc;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background-color: #fff;
+
+.titii{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    padding: 0 24%;
+    margin: 13px;
+    display: flex;
+    background-color: #ffffff;
 }
+
+
+.a{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+ background-color:#ffffff;
+ display: flex;
+ padding: 4%;
+}
+
+.b{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color:#ffffff;
+    display: flex;
+    padding: 4%;
+   }
+
+   .c{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color:#ffffff;
+    display: flex;
+    padding: 4%;
+   }
+   
+   
+  .card {
+    padding: 0 20px;
+    border-radius: 17px;
+    border: 28px solid rgb(255, 109, 146);
+    margin: 0 8px;
+  }
   
-.card2 h3 {
-color: #d6336c;
+  .card h3 {
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    color: #f06ba5;
+    font-size: 36px;
     margin-bottom: 8px;
-}
+  }
   
-.card2 p {
-    font-size: 14px;
-    line-height: 1.5;
-}
+  .card p {
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    font-size: 37px;
+    color: #000000;
+    text-align: justify;
+  }

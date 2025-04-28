@@ -177,7 +177,7 @@ main{
   }
 
 .titi{
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Graduate", serif;
   font-weight: 400;
   font-style: normal;
     border-radius: 9px;
@@ -189,7 +189,7 @@ main{
 }
 
 .titii{
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Graduate", serif;
   font-weight: 400;
   font-style: normal;
     padding: 0 24%;
@@ -200,28 +200,26 @@ main{
 
 
 .a{
-    font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Graduate", serif;
+    font-weight: 400;
+    font-style: normal;
  background-color:#ffffff;
  display: flex;
  padding: 4%;
 }
 
 .b{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
     background-color:#ffffff;
     display: flex;
     padding: 4%;
    }
 
    .c{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: weight;
+    font-family: "Graduate", serif;
+    font-weight: 400;
     font-style: normal;
     background-color:#ffffff;
     display: flex;
@@ -237,9 +235,8 @@ main{
   }
   
   .card h3 {
-    font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: weight;
+    font-family: "Graduate", serif;
+  font-weight: 400;
   font-style: normal;
     color: #f06ba5;
     font-size: 36px;
@@ -247,10 +244,9 @@ main{
   }
   
   .card p {
-    font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Graduate", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 37px;
     color: #000000;
     text-align: justify;

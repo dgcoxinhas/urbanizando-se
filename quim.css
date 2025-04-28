@@ -159,7 +159,7 @@ main{
     margin: 5% 14%;
     background-color: #f48fb1;
     color: white; 
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Kumar One", serif;
   font-weight: 400;
   font-style: normal;
     font-size: 16px; 
@@ -177,7 +177,7 @@ main{
   }
 
 .titi{
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Kumar One", serif;
   font-weight: 400;
   font-style: normal;
     border-radius: 9px;
@@ -189,9 +189,9 @@ main{
 }
 
 .titii{
-    font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 0 24%;
     margin: 13px;
     display: flex;
@@ -200,16 +200,16 @@ main{
 
 
 .a{
-    font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
  background-color:#ffffff;
  display: flex;
  padding: 4%;
 }
 
 .b{
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Kumar One", serif;
   font-weight: 400;
   font-style: normal;
     background-color:#ffffff;
@@ -218,9 +218,9 @@ main{
    }
 
    .c{
-    font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
     background-color:#ffffff;
     display: flex;
     padding: 4%;
@@ -235,7 +235,7 @@ main{
   }
   
   .card h3 {
-    font-family: "VT323", monospace;
+    font-family: "Kumar One", serif;
     font-weight: 400;
     font-style: normal;
     color: #f06ba5;
@@ -244,7 +244,7 @@ main{
   }
   
   .card p {
-    font-family: "VT323", monospace;
+    font-family: "Kumar One", serif;
   font-weight: 400;
   font-style: normal;
     font-size: 37px;
@@ -259,10 +259,9 @@ main{
     background: #ff3672;
     flex-direction: column;
     text-align: center;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
+    font-family: "Kumar One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 footer .boxs {

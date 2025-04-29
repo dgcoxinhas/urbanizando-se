@@ -253,6 +253,32 @@ main{
     text-align: justify;
   }
 
+  .cardd {
+    padding: 0 20px;
+    border-radius: 17px;
+    border: 28px solid #e79cbd;
+    margin: 0 8px;
+  }
+  
+  .cardd h3 {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e79cbd;
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  .cardd p {
+    font-family: "Kumar One", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 22px;
+    color: #000000;
+    text-align: justify;
+  }
+
+
   footer {
     min-height: 250px;
     display: flex;

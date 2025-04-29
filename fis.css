@@ -185,7 +185,19 @@ main{
     margin: 0 19%;
     color: white;
     font-size: 33px;
-    background-color: #ec8dad;
+    background-color: #f06ba5;
+    padding: 6px;
+}
+
+.titiii{
+    font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+    border-radius: 9px;
+    margin: 0 19%;
+    color: white;
+    font-size: 33px;
+    background-color: #ec9cbf;
     padding: 6px;
 }
 

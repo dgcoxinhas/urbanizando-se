@@ -39,7 +39,9 @@ header a {
     margin: 46px;
     display: flex;
     cursor: pointer;
+    font-family: "oswald", sans-serif;
 }
+
 .ati{
     margin: 5px;
     font-size: 23px;
